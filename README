@@ -1,0 +1,28 @@
+Joshua Soutar 101225857
+2024-03-01
+
+Developed with 
+	c++ version 11.4.0
+	QMake version 3.1
+	Qt version 5.15.3
+
+PROGRAM ISSUES/USE
+Before completing certain tasks (i.e changing an elevator weight, or sending a powerout signal to an elevator), you have to make sure that the "user is in the elevator", i.e a up/down request was intiated, as otherwise the signal won't be sent to the current elevator, as there's no current elevator being used.
+
+
+Included Files:
+	defs_Centralized.h
+	ECS_Centralized.h
+	ECS_Centralized.cpp
+	Elevator_Centralized.h
+	Elevator_Centralized.cpp
+	Floor_Centralized.h
+	Floor_Centralized.cpp
+	main.cpp
+	mainwindow.h
+	mainwindow.cpp
+	mainwindow.ui
+	myThread.h
+	myThread.cpp
+	A3.pro
+	A3.pro.user
